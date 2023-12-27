@@ -1,5 +1,5 @@
 {
-  "name": "pkg-name",
+  "name": "@merimas/pkg-name",
   "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,16 +15,20 @@
     "bun"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/wobsoriano/pkg-name#readme",
+  "homepage": "https://github.com/merimas-js/pkg-name#README",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wobsoriano/pkg-name.git"
+    "url": "git+https://github.com/merimas-js/pkg-name.git"
   },
-  "bugs": "https://github.com/wobsoriano/pkg-name/issues",
-  "author": "Robert Soriano <sorianorobertc@gmail.com>",
+  "bugs": "https://github.com/merimas-js/pkg-name/issues",
+  "author": {
+    "name": "Upsided",
+    "email": "matthewlloydw@gmail.com",
+    "url": "https://upsided.net"
+  },
   "devDependencies": {
-    "bun-plugin-dts": "^0.2.1",
-    "bun-types": "^1.0.7",
-    "typescript": "^5.2.2"
+    "bun-plugin-dts": "latest",
+    "bun-types": "latest",
+    "typescript": "latest"
   }
 }
